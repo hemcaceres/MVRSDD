@@ -1,0 +1,6 @@
+{
+  "workspace": "target",
+  "skill": "installed/sdd/SKILL.md",
+  "request": "Implementá ya el saludo de este proyecto usando la skill externa indicada.",
+  "instructions": "Workspace exactamente target. Sólo preparación autorizada por falta de contrato aprobado; no modificar otro proyecto ni instalar nada."
+}

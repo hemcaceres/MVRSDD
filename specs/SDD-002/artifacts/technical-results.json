@@ -1,0 +1,35 @@
+[
+  {
+    "check": "skill-creator canonical",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "0fdee0",
+      "wall_time_seconds": 3.0917375,
+      "exit_code": 0,
+      "original_token_count": 5,
+      "output": "Skill is valid!\r\n"
+    }
+  },
+  {
+    "check": "skill-creator adapter",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "742a84",
+      "wall_time_seconds": 3.0811998,
+      "exit_code": 0,
+      "original_token_count": 5,
+      "output": "Skill is valid!\r\n"
+    }
+  },
+  {
+    "check": "local structural validator",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "ca637c",
+      "wall_time_seconds": 3.0750417,
+      "exit_code": 0,
+      "original_token_count": 123,
+      "output": "{\r\n  \"encoding\": \"UTF-8\",\r\n  \"canonical_skill\": \".agents/skills/sdd/SKILL.md\",\r\n  \"claude_adapter\": \".claude/skills/sdd/SKILL.md\",\r\n  \"discovery_metadata_consistent\": true,\r\n  \"display_name\": \"SDD — conducir el harness\",\r\n  \"implicit_invocation_allowed\": true,\r\n  \"referenced_prompt_ids\": [\r\n    \"P-01\",\r\n    \"P-02\",\r\n    \"P-03\",\r\n    \"P-04\",\r\n    \"P-05\",\r\n    \"P-06\",\r\n    \"P-07\",\r\n    \"P-08\",\r\n    \"P-09\"\r\n  ],\r\n  \"scope\": \"technical structure; not behavioral or native acceptance\"\r\n}\r\n"
+    }
+  }
+]

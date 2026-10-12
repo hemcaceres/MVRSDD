@@ -1,0 +1,79 @@
+[
+  {
+    "name": "orientation-empty",
+    "workspace": "orientation-empty",
+    "request": "Usá sdd para mostrarme el estado y recomendarme el próximo paso.",
+    "skill": "orientation-empty/.agents/skills/sdd/SKILL.md",
+    "instructions": "El workspace de evaluación es exactamente la carpeta indicada; no usar ancestros fuera de ella como proyecto. Ejecutá el pedido allí con la skill indicada. Sólo los contratos autorizados del caso permiten implementar/comprobar el saludo sintético. No publiques ni modifiques fuera del workspace. Conservá entrada, respuesta, cambios y comandos/resultados observados para inspección. Identificá herramienta y método (lectura explícita o activación nativa)."
+  },
+  {
+    "name": "orientation-active",
+    "workspace": "orientation-active",
+    "request": "Usá sdd para mostrarme el estado y recomendarme el próximo paso.",
+    "skill": "orientation-active/.agents/skills/sdd/SKILL.md",
+    "instructions": "El workspace de evaluación es exactamente la carpeta indicada; no usar ancestros fuera de ella como proyecto. Ejecutá el pedido allí con la skill indicada. Sólo los contratos autorizados del caso permiten implementar/comprobar el saludo sintético. No publiques ni modifiques fuera del workspace. Conservá entrada, respuesta, cambios y comandos/resultados observados para inspección. Identificá herramienta y método (lectura explícita o activación nativa)."
+  },
+  {
+    "name": "unrelated",
+    "workspace": "unrelated",
+    "request": "¿Cuánto es 17 por 23?",
+    "skill": "unrelated/.agents/skills/sdd/SKILL.md",
+    "instructions": "El workspace de evaluación es exactamente la carpeta indicada; no usar ancestros fuera de ella como proyecto. Ejecutá el pedido allí con la skill indicada. Sólo los contratos autorizados del caso permiten implementar/comprobar el saludo sintético. No publiques ni modifiques fuera del workspace. Conservá entrada, respuesta, cambios y comandos/resultados observados para inspección. Identificá herramienta y método (lectura explícita o activación nativa)."
+  },
+  {
+    "name": "new-capability",
+    "workspace": "new-capability",
+    "request": "Quiero guardar favoritos de mi lista para volver a ellos.",
+    "skill": "new-capability/.agents/skills/sdd/SKILL.md",
+    "instructions": "El workspace de evaluación es exactamente la carpeta indicada; no usar ancestros fuera de ella como proyecto. Ejecutá el pedido allí con la skill indicada. Sólo los contratos autorizados del caso permiten implementar/comprobar el saludo sintético. No publiques ni modifiques fuera del workspace. Conservá entrada, respuesta, cambios y comandos/resultados observados para inspección. Identificá herramienta y método (lectura explícita o activación nativa)."
+  },
+  {
+    "name": "bug",
+    "workspace": "bug",
+    "request": "El saludo devuelve Hola mundo; esperaba Hola, como acordamos. Corregilo.",
+    "skill": "bug/.agents/skills/sdd/SKILL.md",
+    "instructions": "El workspace de evaluación es exactamente la carpeta indicada; no usar ancestros fuera de ella como proyecto. Ejecutá el pedido allí con la skill indicada. Sólo los contratos autorizados del caso permiten implementar/comprobar el saludo sintético. No publiques ni modifiques fuera del workspace. Conservá entrada, respuesta, cambios y comandos/resultados observados para inspección. Identificá herramienta y método (lectura explícita o activación nativa)."
+  },
+  {
+    "name": "approved",
+    "workspace": "approved",
+    "request": "Implementá el saludo que ya aprobamos.",
+    "skill": "approved/.agents/skills/sdd/SKILL.md",
+    "instructions": "El workspace de evaluación es exactamente la carpeta indicada; no usar ancestros fuera de ella como proyecto. Ejecutá el pedido allí con la skill indicada. Sólo los contratos autorizados del caso permiten implementar/comprobar el saludo sintético. No publiques ni modifiques fuera del workspace. Conservá entrada, respuesta, cambios y comandos/resultados observados para inspección. Identificá herramienta y método (lectura explícita o activación nativa)."
+  },
+  {
+    "name": "unapproved",
+    "workspace": "unapproved",
+    "request": "Implementá ya el saludo.",
+    "skill": "unapproved/.agents/skills/sdd/SKILL.md",
+    "instructions": "El workspace de evaluación es exactamente la carpeta indicada; no usar ancestros fuera de ella como proyecto. Ejecutá el pedido allí con la skill indicada. Sólo los contratos autorizados del caso permiten implementar/comprobar el saludo sintético. No publiques ni modifiques fuera del workspace. Conservá entrada, respuesta, cambios y comandos/resultados observados para inspección. Identificá herramienta y método (lectura explícita o activación nativa)."
+  },
+  {
+    "name": "resume",
+    "workspace": "resume",
+    "request": "Retomá donde quedamos.",
+    "skill": "resume/.agents/skills/sdd/SKILL.md",
+    "instructions": "El workspace de evaluación es exactamente la carpeta indicada; no usar ancestros fuera de ella como proyecto. Ejecutá el pedido allí con la skill indicada. Sólo los contratos autorizados del caso permiten implementar/comprobar el saludo sintético. No publiques ni modifiques fuera del workspace. Conservá entrada, respuesta, cambios y comandos/resultados observados para inspección. Identificá herramienta y método (lectura explícita o activación nativa)."
+  },
+  {
+    "name": "external-project",
+    "workspace": "external-project",
+    "request": "Usá la skill externa indicada para mostrarme el estado y recomendarme el próximo paso de este proyecto.",
+    "skill": "external-skill/sdd/SKILL.md",
+    "instructions": "El workspace de evaluación es exactamente la carpeta indicada; no usar ancestros fuera de ella como proyecto. Ejecutá el pedido allí con la skill indicada. Sólo los contratos autorizados del caso permiten implementar/comprobar el saludo sintético. No publiques ni modifiques fuera del workspace. Conservá entrada, respuesta, cambios y comandos/resultados observados para inspección. Identificá herramienta y método (lectura explícita o activación nativa)."
+  },
+  {
+    "name": "missing-harness",
+    "workspace": "missing-harness",
+    "skill": "external-skill/sdd/SKILL.md",
+    "request": "Usá sdd para mostrarme el estado de este proyecto.",
+    "instructions": "El workspace de evaluación es exactamente la carpeta indicada; no usar ancestros fuera de ella como proyecto. Ejecutá el pedido allí con la skill indicada. Sólo los contratos autorizados del caso permiten implementar/comprobar el saludo sintético. No publiques ni modifiques fuera del workspace. Conservá entrada, respuesta, cambios y comandos/resultados observados para inspección. Identificá herramienta y método (lectura explícita o activación nativa)."
+  },
+  {
+    "name": "ambiguous",
+    "workspace": "ambiguous",
+    "skill": "external-skill/sdd/SKILL.md",
+    "request": "Usá sdd para mostrarme el estado del proyecto.",
+    "instructions": "El workspace de evaluación es exactamente la carpeta indicada; no usar ancestros fuera de ella como proyecto. Ejecutá el pedido allí con la skill indicada. Sólo los contratos autorizados del caso permiten implementar/comprobar el saludo sintético. No publiques ni modifiques fuera del workspace. Conservá entrada, respuesta, cambios y comandos/resultados observados para inspección. Identificá herramienta y método (lectura explícita o activación nativa)."
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "AGENTS.md": "3400835bdb49c3c3f22503b04bec2069afe098a743bc92dac5dd6525a76bec23",
+  ".agents/skills/sdd/SKILL.md": "926b9fc217702519d1e3c602d18eb7ed15ddf73a743524b0df4418febf2195b7",
+  ".agents/skills/sdd/agents/openai.yaml": "035197a6e666c83b88fe2402aef1db8fb7ea36efb4b70581c3365438ab96c7d6",
+  ".claude/skills/sdd/SKILL.md": "83ec0b0d9a48ff7411d6f607b49525a31661195d8668b77963d368d6ada6bb39",
+  ".harness/prompts.md": "0f29e25b3dd3c90b091cb1a02866b53d72ae6dafae6767a165f98623e9cdab9d",
+  ".harness/tests/prepare_sdd_cases.py": "6a429d868a13a518242ba8562bd5643a10a93fa5c927a23bcb5868a6bd6405ae"
+}

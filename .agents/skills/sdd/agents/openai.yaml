@@ -1,0 +1,4 @@
+interface:
+  display_name: "SDD — conducir el harness"
+  short_description: "Features, errores y continuidad sin memorizar prompts"
+  default_prompt: "Usá $sdd para mostrarme el estado y recomendarme el próximo paso."
